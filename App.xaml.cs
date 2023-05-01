@@ -6,6 +6,8 @@ using Windows.Graphics;
 
 #endif
 
+using TARge21SolarPlanet.Views;
+
 namespace TARge21SolarPlanet;
 
 public partial class App : Application

@@ -49,12 +49,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\apipic.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Folder Include="Resources\Fonts\" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\PlanetDetailsPage.xaml">
+	    <Generator></Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\PlanetsPage.xaml">
+	    <Generator></Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\StartPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
+	    <Generator></Generator>
 	  </MauiXaml>
 	</ItemGroup>
 
